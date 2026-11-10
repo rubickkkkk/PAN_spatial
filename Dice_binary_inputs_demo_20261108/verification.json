@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "binary_only_input_fields": true,
+  "n_samples": 8,
+  "n_spots_per_file": 22838,
+  "n_files": 6,
+  "sample_cutoff_comparisons_reproduced": 40,
+  "unit_tests_passed": 9,
+  "notebook_executed_without_errors": true,
+  "relocated_cli_and_notebook_identical": true,
+  "source_files_unchanged": true,
+  "mean_dice_by_cutoff": {
+    "30": 0.7836482389292567,
+    "35": 0.7935405611618243,
+    "40": 0.7990114088012162,
+    "45": 0.7634135645450034,
+    "50": 0.6741746522001753
+  }
+}

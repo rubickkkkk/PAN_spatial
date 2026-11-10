@@ -1,0 +1,25 @@
+test_counting_formula (test_demo.DemoTests.test_counting_formula) ... ok
+test_diagonal_once (test_demo.DemoTests.test_diagonal_once) ... ok
+test_empty_edges (test_demo.DemoTests.test_empty_edges) ... ok
+test_graph (test_demo.DemoTests.test_graph) ... ok
+test_input_labels (test_demo.DemoTests.test_input_labels) ... ok
+test_invalid_edges (test_demo.DemoTests.test_invalid_edges) ... ok
+test_invalid_labels (test_demo.DemoTests.test_invalid_labels) ... ok
+test_log2_pair_table (test_demo.DemoTests.test_log2_pair_table) ... ok
+test_log2_ratio_scale (test_demo.DemoTests.test_log2_ratio_scale) ... ok
+test_log2_requires_positive_finite_ratios (test_demo.DemoTests.test_log2_requires_positive_finite_ratios) ... ok
+test_mixture_strings (test_demo.DemoTests.test_mixture_strings) ... ok
+test_multilabel_edge (test_demo.DemoTests.test_multilabel_edge) ... ok
+test_notebook_presentation (test_demo.DemoTests.test_notebook_presentation) ... ok
+test_presence_csv (test_demo.DemoTests.test_presence_csv) ... ok
+test_real_count_and_total (test_demo.DemoTests.test_real_count_and_total) ... ok
+test_real_sample_log2_and_ratio (test_demo.DemoTests.test_real_sample_log2_and_ratio) ... ok
+test_reference_matrix (test_demo.DemoTests.test_reference_matrix) ... ok
+test_repeated_values_are_not_deduplicated (test_demo.DemoTests.test_repeated_values_are_not_deduplicated) ... ok
+test_sics_score (test_demo.DemoTests.test_sics_score) ... ok
+test_total_counts_all_state_combinations (test_demo.DemoTests.test_total_counts_all_state_combinations) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.082s
+
+OK

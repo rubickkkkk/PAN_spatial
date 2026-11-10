@@ -1,0 +1,4 @@
+# Preserve the demo files covered by their published checksums.
+/PANZONER_demos/** -text
+/Dice_binary_inputs_demo_20261108/** -text
+/SICS_super_slide_UKF248/** -text

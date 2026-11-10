@@ -1,0 +1,29 @@
+{
+  "sample": "UKF248_T_1",
+  "n_spots": 3011,
+  "physical_edges": 8643,
+  "counting": "same-state once via if-guard, off-diagonal symmetric",
+  "total": "lower triangle including diagonal, no pseudocounts on either side",
+  "formula": "(C + 1)/(E_raw + 1) * reference_total_raw/sample_total_raw",
+  "sample_total_raw": 38042.0,
+  "reference_total_raw": 340429.28,
+  "spot_state_input": "precomputed 0/1 presence labels; no continuous state layers",
+  "scope": "single-sample demonstration; no P values or group reassignment",
+  "score_scales": {
+    "SICS_ratio": "untransformed ratio",
+    "SICS_log2": "log2(SICS_ratio)"
+  },
+  "reference_seed": 186,
+  "reference_rng": "MT19937",
+  "reference_random_api": "np.random.seed / np.random.shuffle",
+  "sha256": {
+    "02_UKF248/data/UKF248_T_1_processed_spot_states.h5ad": "9ce95c2a01354cb5109c2253ac77b7459a0ec321b70b099d62e7c5738e45bc1b",
+    "01_super_slide/results/UKF_reference_raw.csv": "d642b9ff73dd6b4f0758f9ab048fc7ea045282c6444502432c14a91d71f63983"
+  },
+  "versions": {
+    "anndata": "0.9.2",
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "scipy": "1.11.2"
+  }
+}

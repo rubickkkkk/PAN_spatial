@@ -1,0 +1,10 @@
+Parameter	Value
+Neighborhood radius	50 μm
+Core	p > 0.80
+Peri-core	0.66 ≤ p ≤ 0.80
+Border	0.33 ≤ p < 0.66
+Isolated	p < 0.33 or no neighbors
+Minimum region size	50 cells
+Interior gradient	30 μm; Hypo only
+Exterior gradient	50 μm
+Alpha-shape alpha	0.02 μm⁻¹

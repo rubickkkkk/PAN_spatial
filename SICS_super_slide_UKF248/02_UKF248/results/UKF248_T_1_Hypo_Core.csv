@@ -1,0 +1,2 @@
+sample,pair,is_diagonal,observed_events,reference_mean_raw,sample_total_raw,reference_total_raw,SICS_ratio,SICS_log2
+UKF248_T_1,MES_Core|MES_Hypo,False,803,4417.36,38042.0,340429.28,1.6283903321491158,0.7034465612491638

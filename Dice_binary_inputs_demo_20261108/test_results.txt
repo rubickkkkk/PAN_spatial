@@ -1,0 +1,14 @@
+test_counts_and_formula (test_calculate_dice.DiceTests.test_counts_and_formula) ... ok
+test_duplicates_rejected (test_calculate_dice.DiceTests.test_duplicates_rejected) ... ok
+test_input_schema_and_all_packaged_spots (test_calculate_dice.DiceTests.test_input_schema_and_all_packaged_spots) ... ok
+test_macro_not_pooled (test_calculate_dice.DiceTests.test_macro_not_pooled) ... ok
+test_missing_and_extra_ids_rejected (test_calculate_dice.DiceTests.test_missing_and_extra_ids_rejected) ... ok
+test_nonbinary_and_missing_values_rejected (test_calculate_dice.DiceTests.test_nonbinary_and_missing_values_rejected) ... ok
+test_order_is_irrelevant (test_calculate_dice.DiceTests.test_order_is_irrelevant) ... ok
+test_perfect_disjoint_and_empty (test_calculate_dice.DiceTests.test_perfect_disjoint_and_empty) ... ok
+test_reproduce_packaged_results (test_calculate_dice.DiceTests.test_reproduce_packaged_results) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.178s
+
+OK

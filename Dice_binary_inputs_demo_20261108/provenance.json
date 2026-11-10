@@ -1,0 +1,150 @@
+{
+  "reference_mask_not_changed_during_export": true,
+  "threshold_predictions_not_changed_during_export": true,
+  "n_samples": 8,
+  "n_spots_per_file": 22838,
+  "input_columns": [
+    "sample",
+    "spot_id",
+    "is_hypo"
+  ],
+  "cutoffs_percent": [
+    30,
+    35,
+    40,
+    45,
+    50
+  ],
+  "source_columns": {
+    "mask_hypo.csv": {
+      "source_description": "Independent manual annotations used as the reference for Dice comparison.",
+      "packaged_file": "inputs/mask_hypo.csv",
+      "packaged_column": "is_hypo"
+    },
+    "hypo_30.csv": {
+      "source_files": [
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv"
+      ],
+      "source_column": "PAN_core"
+    },
+    "hypo_35.csv": {
+      "source_files": [
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv"
+      ],
+      "source_column": "PAN_core"
+    },
+    "hypo_40.csv": {
+      "source_files": [
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv"
+      ],
+      "source_column": "PAN_core"
+    },
+    "hypo_45.csv": {
+      "source_files": [
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv"
+      ],
+      "source_column": "PAN_core"
+    },
+    "hypo_50.csv": {
+      "source_files": [
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv",
+        "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv"
+      ],
+      "source_column": "PAN_core"
+    }
+  },
+  "source_sha256": {
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv": "e190f52e1056da45fa79f6788af53926e72aa41209bdcb3a557861123f271582",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv": "fff69832ea7b6fcc4b7c9c83bcf9612170f076f52c29bde567d7f5e23ff944b3",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv": "0f1759fd1db8a72ac6eb8cc49d9c6fd6e0ada6bf75a2a6bea4a472e16a57a2bd",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv": "d89774a05b529d57e04081fcae191f54c809635a4d4a9193e8896a0229d4975f",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv": "0d4886655f5f3433939ae36ba8ce0e4b38b335adb95c33cd0f3eb15d2dd0557c",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv": "73a8f83a1e063a99ce364c298211863dcb7ea5157c631608d72963088e873b33",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv": "cdf4b716f9f05e4a04b4bdea862093e0bf62a1dd5aba3b5d2b5e0d09f032b7ce",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_30/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv": "75a6c296d442cf76fc8b01b1d998d830daaf617626eb29ec7e77f7aa602b6fae",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv": "784f05bca1bfb05f9e45624687f2998efe037b587431717e0f811c758659aee0",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv": "7bb6fcc63189fb14673d1de1d0a4b1de669950d224a4d0e621ed98a89c255f77",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv": "2ebcd9339a33b7957cd4631d279ee9a25093b30f555fcca8a91a8181979f5823",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv": "0d928d45d7f6ae34a28c0c768932590e0065afc7faa59776a0dc35244fea9a7a",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv": "1617e5af9c9e5c9aacc85324ce518dccd3f6def72e3f66303c56470658c4d444",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv": "2eef9566869d0fc90a8f8af25aa9538632d9cc3b4a40b675799fb8346095cae8",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv": "a5bf93300e547ef9e8189a4f5a1a17ac4c75ccf29c62e670fa21e1ed2cf2118d",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_35/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv": "b45c61db4917f8e97bbafcda4b3c1ee473b696c2ce305c17d97d44fa36f7f41b",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv": "04a79f1f07cb282b38cda8043202f9ddf41ce5b43f33f49ab8d1a3fa6484324f",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv": "fa5585a3e0ccf53b528f0f1d9e0db86561ec9cc5e8e2a8d5a895486461ccf2e7",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv": "fc1ddc05172abfa479c5dbf9c3958016e7d265306c26eed2f2795cc7e893ace0",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv": "4a3095d2af74beb6755041734e26361ad436c93be5b9b47bfe93e3685fb760b3",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv": "ef81a09c7937802e0de00ca902a5c4f3f19d9fa5d1835d3d56ecd0b30c1f3a85",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv": "32cb3f16b16bd96c8f43bc7455ebf9f3d312e0fb57a875f8aadf880f7d4b2a61",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv": "14f300362bb376e72f43bd74fd8983a697eb26834eeaeed7c990d9943c087b40",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_40/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv": "b4f88679a35d023cb98b3ca05f0a61a54cd57272b1a7c18a39af3e94c48b844d",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv": "a11f6577af83dd6fd242e67f0612656668e05b84adbbb53b1b120b0be5e1e322",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv": "1e46ac8764269bd9471710fa590e5eae717852ddf3d532d3472416dc1d8b98e3",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv": "60652e949bb7c810007ae3de272438924febce9adf637c2441bcc2af3d2bba39",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv": "5a543c8c25cc05e6b259ed8d994acc48bd21353f93bb24694c5d1594bc5157c9",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv": "b4045dd68db84b467e5ec03e0366ddc4d0e69aee1b9c8fdbd429e166f368534c",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv": "9174dd755032ef5d26c035a5a9959fa219ab82e7a513b7c9d2d8ff566e18de05",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv": "3e4c5439bb1de613478b84318b054237b86f01cd64531c100e84a315e6ccec34",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_45/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv": "2c8d4f779210bc4a5b9c2eb8eb8d246c42583f6f54042c39a6053ce2af323271",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF243_T_1/UKF243_T_1_PAN_annotations.tsv": "a558caa25b857baa38de9b1444b39812259250de46242a5c7a86c7152121bee1",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF248_T_1/UKF248_T_1_PAN_annotations.tsv": "3b0273a9d610e67c1bc7f837276076a16e12354e7bef353ca82e6377dcbabf7f",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF255_T_1/UKF255_T_1_PAN_annotations.tsv": "1567329bcccfd5b9a5e754b6ad01d664540dbf410ec716e58f8cc287252d6957",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF259_T_2/UKF259_T_2_PAN_annotations.tsv": "772141c033d43d4d7217497fe741e45d99e8c3f15a031dae81958b282fc5171e",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF260_T_1/UKF260_T_1_PAN_annotations.tsv": "c8a518ed01d294bdc24cd86c3fb8930b2c86f873bbeb1267e3cc2a04a5f0a111",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF275_T_1/UKF275_T_1_PAN_annotations.tsv": "cf93c5d09d4855f8e3459f43dcc9fc4db9199b91bc5fb5ea71b56ef447867d7b",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF313_T_2/UKF313_T_2_PAN_annotations.tsv": "bd55505514a7de9b947e6d121ae49e4a45e57652f658a3f180fa63d06d4b1106",
+    "/home/test/scproject/YANG_GBM_SC_ST/script/result/12.spatial_neighbor/PAN_thresholds_30_35_40_45_50_20261108/threshold_50/UKF334_T_2/UKF334_T_2_PAN_annotations.tsv": "46586c1aca2b6b14599dc688bdbfda2cc9aa9ec651e68b0c4ad0d24cfbfb9a8e"
+  },
+  "input_sha256": {
+    "hypo_30.csv": "296ba99c5defc342e67717d47fe9a9f8949d115a99d82b33d3faa0e6f0c98249",
+    "hypo_35.csv": "7c62fdf80cb1f60e12b97fce08fbf5d996073ee34d988027c5a64184147c71f0",
+    "hypo_40.csv": "383a5b3becb975ae71e6c95aa2175614b837686181c483ec3166a8553b88b114",
+    "hypo_45.csv": "d50147183e9c47c33a1fd3f397afcb6731c4631f0b94dbfc07cb84ae47880d30",
+    "hypo_50.csv": "a7355d87cde1dcdd2d7982b2cb529c11fde644fbd8eae597b52d5868a252373d",
+    "mask_hypo.csv": "78b695c588ff36384ff4f5de3565640947a86b6bb95a2983785671bf592b5c16"
+  },
+  "aggregation": "equal-sample arithmetic mean, not pooled spots",
+  "empty_both_policy": "undefined NaN; none in the supplied data",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "nbformat": "5.9.2",
+    "nbclient": "0.8.0",
+    "ipykernel": "6.25.2"
+  },
+  "original_export_builder_sha256": "e49d82ebf923b33dbfae715128eeb831c9f03bc8f6884059671986c54b1ed0dc"
+}

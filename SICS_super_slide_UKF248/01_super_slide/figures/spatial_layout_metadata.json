@@ -1,0 +1,15 @@
+{
+  "coordinate_file": "results/grid_coordinates.csv",
+  "coordinate_sha256": "582a063f3b6243925930588d129c655c516d74bd57bfc5913838c5622b062285",
+  "n_spots": 33872,
+  "n_edges": 100880,
+  "grid_rows": 184,
+  "spots_per_complete_row": 185,
+  "spots_in_last_row": 17,
+  "central_grid_site_index": 16926,
+  "central_node_degree": 6,
+  "coordinate_units": "artificial grid coordinates; not micrometres",
+  "pdf_geometry": "vector",
+  "font": "Arial",
+  "png_dpi": 600
+}

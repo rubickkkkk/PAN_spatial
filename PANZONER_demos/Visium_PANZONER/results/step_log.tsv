@@ -1,0 +1,15 @@
+step	title	changed_labels_vs_previous
+01_binary_input	1. Input: Hypo / Other	
+02_spatial_graph	2. Rebuild the six-neighbor spatial graph	0.0
+03_cell_status	3. Classify Hypo spots by their Hypo neighbors	
+04_seed_regions	4. Connected core / peri-core seeds	
+05_add_border	5. First growth pass: border spots	75.0
+06_add_isolated	6. Second growth pass: border + isolated	16.0
+07_merge_regions	7. Merge directly adjacent Hypo regions	14.0
+08_retained_regions	8. Retain Hypo regions with at least 20 spots	0.0
+09_layer1	9.1. Add layer 1	108.0
+09_layer2	9.2. Add layer 2	70.0
+09_layer3	9.3. Add layer 3	67.0
+09_layer4	9.4. Add layer 4	67.0
+09_layer5	9.5. Add layer 5	69.0
+09_layer6	9.6. Add layer 6	68.0
