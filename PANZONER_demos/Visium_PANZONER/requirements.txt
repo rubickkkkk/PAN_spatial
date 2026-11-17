@@ -1,0 +1,10 @@
+# Tested with Python 3.11. Actual Arial font is also required (not bundled).
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.2
+scikit-learn==1.7.2
+matplotlib==3.6.2
+nbformat==5.9.2
+nbclient==0.8.0
+nbconvert==7.9.2
+ipykernel==6.25.2

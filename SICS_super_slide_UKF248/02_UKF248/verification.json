@@ -1,0 +1,29 @@
+{
+  "tests_passed": 20,
+  "notebook_code_cells_executed": 9,
+  "relocated_notebook_uses_shared_super_slide_output": true,
+  "relocated_results_match_exactly": true,
+  "inputs_unchanged": true,
+  "sample": "UKF248_T_1",
+  "spot_state_input_encoding": "binary presence only",
+  "no_continuous_layers_in_input_or_output": true,
+  "labels_coordinates_and_graph_preserved": true,
+  "n_spots": 3011,
+  "physical_edges": 8643,
+  "n_state_pairs": 21,
+  "focal_observed": 803,
+  "sample_total_raw": 38042,
+  "reference_total_raw": 340429.28,
+  "reference_seed": 186,
+  "reference_rng": "MT19937",
+  "reference_sha256": "d642b9ff73dd6b4f0758f9ab048fc7ea045282c6444502432c14a91d71f63983",
+  "focal_SICS_ratio": 1.6283903321491158,
+  "focal_SICS_log2": 0.7034465612491638,
+  "score_scales": {
+    "SICS_ratio": "untransformed ratio",
+    "SICS_log2": "log2(SICS_ratio)"
+  },
+  "all_pair_log2_matches_ratio": true,
+  "matrix_and_anndata_scales_verified": true,
+  "analysis_mode": "state_pair_events, both totals use raw lower triangle"
+}

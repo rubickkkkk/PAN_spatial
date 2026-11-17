@@ -1,0 +1,43 @@
+{
+  "super_slide_tests": 9,
+  "sample_tests": 20,
+  "both_notebooks_executed": true,
+  "relocated_execution_identical": true,
+  "super_slide_spots": 33872,
+  "super_slide_edges": 100880,
+  "super_slide_permutations": 50,
+  "seed": 186,
+  "rng": "MT19937",
+  "random_api": "np.random.seed / np.random.shuffle",
+  "all_50_placements_match_coordinate_shuffles": true,
+  "super_slide_all_draws_match_sparse_counts": true,
+  "super_slide_grid_verified": true,
+  "super_slide_obs_columns": [],
+  "super_slide_sequential_id_format": "SPOT_000001 through SPOT_033872",
+  "super_slide_state_rows_unchanged": true,
+  "sample_input_and_observed_counts_unchanged": true,
+  "sample_reference_matches_super_slide_output": true,
+  "reference_sha256": "d642b9ff73dd6b4f0758f9ab048fc7ea045282c6444502432c14a91d71f63983",
+  "reference_total_raw": 340429.28,
+  "reference_Hypo_Core": 4417.36,
+  "sample_focal_ratio": 1.6283903321491158,
+  "reference_policy": "UKF248 reads the super-slide output directly",
+  "total_tests_passed": 29,
+  "sample_focal_log2": 0.7034465612491638,
+  "score_scales": {
+    "SICS_ratio": "untransformed ratio",
+    "SICS_log2": "log2(SICS_ratio)"
+  },
+  "log2_computed_in_python": true,
+  "normalized_ratios_preserved": true,
+  "all_pair_log2_matches_ratio": true,
+  "matrix_and_anndata_scales_verified": true,
+  "negative_log2_values_preserved": true,
+  "fresh_50_permutations_match_packaged_draws": true,
+  "fresh_super_slide_to_sample_pipeline_verified": true,
+  "notebook_code_cells_executed": {
+    "super_slide": 6,
+    "sample": 9
+  },
+  "python_version": "3.11.15"
+}

@@ -1,0 +1,14 @@
+test_coordinate_shuffle_equivalence (test_super_slide.SuperSlideTests.test_coordinate_shuffle_equivalence) ... ok
+test_diagonal_once (test_super_slide.SuperSlideTests.test_diagonal_once) ... ok
+test_grid (test_super_slide.SuperSlideTests.test_grid) ... ok
+test_input (test_super_slide.SuperSlideTests.test_input) ... ok
+test_multilabel_events (test_super_slide.SuperSlideTests.test_multilabel_events) ... ok
+test_presence_table (test_super_slide.SuperSlideTests.test_presence_table) ... ok
+test_presentation (test_super_slide.SuperSlideTests.test_presentation) ... ok
+test_seed_repeatability (test_super_slide.SuperSlideTests.test_seed_repeatability) ... ok
+test_sparse_count_equivalence (test_super_slide.SuperSlideTests.test_sparse_count_equivalence) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.268s
+
+OK
